@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: #000;
+    text-decoration: none;
 }
 
 .header {
@@ -12,15 +13,18 @@ body {
     justify-content: flex-end;
     align-items: center;
     height: 50px;
+    text-decoration: none;
 }
 
 .icon {
     padding: 0 20px;
+    text-decoration: none;
 }
 
 .icon i {
     color: #fff;
     margin: 0 10px;
+    text-decoration: none;
 }
 
 .sidebar {
@@ -33,12 +37,14 @@ body {
     background: #000;
     color: #fff;
     align-items: center;
+    text-decoration: none;
 }
 
 .profile {
     padding: 20px;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .profile img {
@@ -47,19 +53,23 @@ body {
     border-radius: 50%;
     margin-left: 15px;
     margin-right: 10px;
+    text-decoration: none;
 }
 
 .profile p {
     margin: 0;
+    text-decoration: none;
 }
 
 .sidebar ul {
     list-style-type: none;
     padding: 10;
+    text-decoration: none;
 }
 
 .sidebar li {
     padding: 5px 10px;
+    text-decoration: none;
 }
 
 .sidebar a {
@@ -72,4 +82,5 @@ body {
     color: #fff;
     margin-top: 46px;
     margin-left: 200px;
+    text-decoration: none;
 }
