@@ -23,7 +23,7 @@ function renderNotes() {
         const noteElement = document.createElement('div');
         noteElement.className = 'note';
         noteElement.innerHTML = `
-            <p>${note}</p>
+            ${note}
             <button onclick="deleteNote(${index})">Delete</button>
         `;
         notesContainer.appendChild(noteElement);
