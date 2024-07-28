@@ -1,25 +1,65 @@
 body {
     margin: 0;
     padding: 0;
+    background: #000;
+}
+
+.header {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+}
+
+.icon {
+    padding: 0 20px;
+}
+
+.icon i {
+    color: #fff;
+    margin: 0 10px;
 }
 
 .sidebar {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
     position: fixed;
     top: 0;
     left: 0;
     height: 100vh;
-    width: 200px; /* Adjust this value for the width of the sidebar */
-    background: #333;
+    width: 200px;
+    background: #000;
     color: #fff;
+    align-items: center;
+}
+
+.profile {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.profile p {
+    margin: 0;
 }
 
 .sidebar ul {
     list-style-type: none;
-    padding: 0;
+    padding: 10;
 }
 
 .sidebar li {
-    padding: 10px;
+    padding: 5px 10px;
 }
 
 .sidebar a {
@@ -28,6 +68,8 @@ body {
 }
 
 .content {
-    margin-left: 200px; /* Ensure content doesn't overlap with the sidebar */
-    padding: 20px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #fff;
+    margin-top: 46px;
+    margin-left: 200px;
 }
